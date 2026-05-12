@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kết quả sử dụng hàm console.log</title>
+</head>
+<body>
+    <h2>Kết quả sử dụng hàm console.log</h2>
+    <div id="result"></div>
+
+    <script>
+        const output = document.getElementById('result');
+        try {
+            const userProfile = null;
+            console.log(userProfile.name);
+            output.innerHTML += `<p>Lấy dữ liệu thành công!</p>`; 
+        } catch (error) {
+            output.innerHTML += `<p class="error">Xin lỗi, hệ thống đang bận. Vui lòng thử lại sau!</p>`;
+            output.innerHTML += `<p class="dev-log">Gửi báo cáo lỗi cho Dev: ${error.message}</p>`;
+            console.log("Xin lỗi, hệ thống đang bận. Vui lòng thử lại sau!");
+            console.log("Gửi báo cáo lỗi cho Dev:", error.message);
+        }
+    </script>
+</body>
+</html>
