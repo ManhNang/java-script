@@ -1,0 +1,25 @@
+weather_dashboard.js:58 Đã hoàn tất quét cảm biến: S1
+weather_dashboard.js:54 [System Error] ID: S2 Error: Dữ liệu nhiệt độ bị hỏng (Nhận được: object)
+    at weather_dashboard.js:44:23
+    at Array.forEach (<anonymous>)
+    at processWeatherData (weather_dashboard.js:32:14)
+    at weather_dashboard.js:68:9
+(anonymous) @ weather_dashboard.js:54
+weather_dashboard.js:58 Đã hoàn tất quét cảm biến: S2
+weather_dashboard.js:58 Đã hoàn tất quét cảm biến: S3
+weather_dashboard.js:58 Đã hoàn tất quét cảm biến: S4
+weather_dashboard.js:54 [System Error] ID: UNKNOWN_4 Error: Phát hiện dữ liệu không phải đối tượng hợp lệ.
+    at weather_dashboard.js:39:23
+    at Array.forEach (<anonymous>)
+    at processWeatherData (weather_dashboard.js:32:14)
+    at weather_dashboard.js:68:9
+(anonymous) @ weather_dashboard.js:54
+weather_dashboard.js:58 Đã hoàn tất quét cảm biến: UNKNOWN_4
+weather_dashboard.js:58 Đã hoàn tất quét cảm biến: S5
+weather_dashboard.js:54 [System Error] ID: S6 Error: Dữ liệu nhiệt độ bị hỏng (Nhận được: string)
+    at weather_dashboard.js:44:23
+    at Array.forEach (<anonymous>)
+    at processWeatherData (weather_dashboard.js:32:14)
+    at weather_dashboard.js:68:9
+(anonymous) @ weather_dashboard.js:54
+weather_dashboard.js:58 Đã hoàn tất quét cảm biến: S6
