@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR-Lite - Quản lý Nhân sự</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <h2>Hệ thống HR-Lite</h2>
+    <div class="card">
+        <h3>➕ Thêm Nhân viên Mới</h3>
+        <form id="employeeForm">
+            <div class="form-group">
+                <input type="text" id="empName" placeholder="Tên nhân viên (VD: Nguyen Van A)" required>
+                <input type="number" id="empSalary" placeholder="Mức lương (VNĐ)" required min="0">
+                <button type="submit">Thêm nhân sự</button>
+            </div>
+        </form>
+    </div>
+    <div class="card">
+        <h3>🔍 Tìm kiếm nhanh</h3>
+        <input type="text" id="searchInput" placeholder="Gõ tên nhân viên để tìm kiếm tức thì...">
+    </div>
+    <div class="card">
+        <h3>👥 Danh sách Nhân sự</h3>
+        <ul id="employeeList" class="employee-list">
+            <li class="employee-item" style="color: gray; font-style: italic;">Chưa có dữ liệu nhân sự...</li>
+        </ul>
+        <hr>
+        <div class="total-section">
+            Tổng quỹ lương: <span id="totalSalary" style="color: #d9534f;">0</span> VNĐ
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
