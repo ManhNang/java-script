@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt món tự động</title>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form id="orderForm">
+        <input type="text" id="foodName" placeholder="Tên món ăn" required>
+        <input type="number" id="foodPrice" placeholder="Giá tiền" required>
+        <button type="submit">Thêm vào giỏ</button>
+    </form>
+
+    <div id="cartArea">
+        <ul id="cartList"></ul>
+        <h3>Tổng tiền: <span id="totalPrice">0</span> VNĐ</h3>
+        <button id="checkoutBtn">Thanh toán (Phím tắt: Enter)</button>
+    </div>
+</body>
+</html>
